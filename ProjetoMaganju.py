@@ -38,6 +38,12 @@ def quarto_cadastro():
           quarto.append([numero,pessoa,tipo,nome])
           continuar = input("Continuar? [S/N]:")
 
+def lista_remover(mat,residentes):
+    for res in residentes:
+        if mat == res []:
+            residentes.pop(res)
+            break
+
 def listar_equipamento():
     cabecalho = "*** RESIDÊNCIA MANGAJU UFPB RT ***"
     tam_linha = 45
