@@ -175,7 +175,7 @@ def cadastrar_aluno():
 
 def lista_remover(mat,residentes):
     for res in residentes:
-        if mat == res[0]:
+        if mat == res[]:
             residentes.pop(res)
             break       
 
@@ -256,7 +256,7 @@ def exibir_menuprincipal():
          else:
              print("Opçãp Inválida!")
 
-
+remover = []
 quarto = []
 equipamento = []
 nome = []
